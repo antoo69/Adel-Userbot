@@ -66,7 +66,7 @@ if sys.argv[0] == "-m":
             validate_session(Var.SESSION, LOGS),
             udB=udB,
             app_version=ayra_version,
-            device_model="Adel Userbot",
+            device_model="𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕",
         )
         ayra_bot.run_in_loop(autobot())
 
@@ -100,6 +100,6 @@ else:
 
     from logging import getLogger
 
-    LOGS = getLogger("Adel Userbot")
+    LOGS = getLogger("𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕")
 
     ayra_bot = asst = udB = vcClient = None
