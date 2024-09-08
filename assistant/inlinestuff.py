@@ -33,11 +33,11 @@ apis = [
 async def repo(e):
     res = [
         await e.builder.article(
-            title="Adel Userbot",
-            description="Userbot | Telethon",
+            title="𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕",
+            description="𝑼𝒔𝒆𝒓𝒃𝒐𝒕 | Telethon",
             thumb=wb(aypic, 0, "image/jpeg", []),
-            text="**◈ Adel Userbot ◈**",
+            text="**◈ 𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 ◈**",
             buttons=SUP_BUTTONS,
         ),
     ]
-    await e.answer(res, switch_pm="Adel-Userbot", switch_pm_param="start")
+    await e.answer(res, switch_pm="𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕", switch_pm_param="start")
