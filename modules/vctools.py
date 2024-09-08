@@ -109,7 +109,7 @@ async def join_(event):
     if not Nan.group_call.is_connected:
         await Nan.group_call.join(chat)
         await asyncio.sleep(1)
-        await event.eor(f"**Berhasil Naik Ke Obrolan Suara**\n└ **Chat ID :** `{chat}`")
+        await event.eor(f"**Eh Si Monyet Malah Naikin Bot**\n└ **Chat ID :** `{chat}`")
         await asyncio.sleep(1)
         await Nan.group_call.set_is_mute(False)
         await asyncio.sleep(1)
@@ -130,7 +130,7 @@ async def leaver(event):
     jing = Player(chat)
     await jing.group_call.leave()
     await asyncio.sleep(1)
-    await event.eor(f"❏ **Berhasil Turun Voice Chat**\n└ **Chat ID:** `{chat}`")
+    await event.eor(f"❏ **Eh Si Monyet Turunin Bot**\n└ **Chat ID:** `{chat}`")
     if CLIENTS.get(chat):
         del CLIENTS[chat]
     if VIDEO_ON.get(chat):
