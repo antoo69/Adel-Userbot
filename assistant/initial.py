@@ -10,10 +10,10 @@ import re
 from . import *
 
 STRINGS = {
-    1: """ **Terima Kasih Telah Deploy Adel-userbot!**
+    1: """ **Terima Kasih Telah Deploy 𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕!**
 
 Beberapa Bantuan Untuk Kamu Pelajari.""",
-    2: """🎉** Tentang adel-userbot **
+    2: """🎉** Tentang 𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 **
 
  adeluserbot adalah repo userbot yang dibuat untuk pengguna telegram, userbot ini memiliki beberapa fitur kamu bisa melihat nya dihalaman 4.""",
     3: """
@@ -22,14 +22,14 @@ Beberapa Bantuan Untuk Kamu Pelajari.""",
 -> Kamu bisa menggunakan chatgpt atau openai.
 -> Kamu bisa merubah teks menjadi beberapa gaya font.
 -> Kamu convert foto kamu menjadi anime.
--> Kamu bisa membalas seseorang dari adel-userbot Logs ketika kamu di tag oleh seseorang digrup lain.
+-> Kamu bisa membalas seseorang dari 𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Logs ketika kamu di tag oleh seseorang digrup lain.
 -> Kamu bisa menggunakan fitur joinvc untuk menaikkan bot ke dalam obrolan suara
 -> Userbot ini memliki fitur pmpermit inline
 -> Kamu bisa menyimpan catatan apapun dengan media gambar serta button.
 -> Kamu dapat berinteraksi dengan seseorang melali fitur chatbot
 
 **• To Know About Updates**
-  - Join @Darensupport.""",
+  - Join @BestieVirtual.""",
     4: f"""**• Bantuan yang mungkin kamu ingin lihat •**
 
   - `{HNDLR}help`
