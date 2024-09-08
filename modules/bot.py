@@ -30,11 +30,11 @@ except ImportError:
 
 from telethon.utils import resolve_bot_file_id
 
-piic = "https://telegra.ph/file/2784ee65894aae04a1115.jpg"
+piic = "https://telegra.ph/file/a23e9cf302c1da667bd89.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/Darensupport"),
+        Button.url(get_string("bot_4"), "t.me/BestieVirtual"),
     ]
 ]
 
@@ -54,14 +54,14 @@ BLACK = [1898065191, 1054295664, 1889573907, 2133148961, 2076745088]
 
 # Will move to strings
 alive_txt = """
-◈ Adel ꭙ Userbot
+◈ 𝑭𝒆𝒓𝒅𝒊 ꭙ 𝑼𝒔𝒆𝒓𝒃𝒐𝒕
 
   ◈ Version - {}
   ◈ Adel - {}
   ◈ Telethon - {}
 """
 
-in_alive = "<b>Adel-Userbot</b>\n<b>     Status :</b> <code>{}</code>{}\n<b>       Expired_On :</b> <code>{}</code>\n<b>       Dc_Id :</b> <code>{}</code>\n<b>       Ping_Dc :</b> <code>{} Ms</code>\n<b>       Assistant :</b> <code>{}</code>\n<b>      Version :</b> <code>{}</code>"
+in_alive = "<b>𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕</b>\n<b>     Status :</b> <code>{}</code>{}\n<b>       Expired_On :</b> <code>{}</code>\n<b>       Dc_Id :</b> <code>{}</code>\n<b>       Ping_Dc :</b> <code>{} Ms</code>\n<b>       Assistant :</b> <code>{}</code>\n<b>      Version :</b> <code>{}</code>"
 
 absen = [
     "**Absen Absen Developer Lo?**",
@@ -73,14 +73,14 @@ async def kynanabsen(nande):
     await nande.reply(choice(absen))
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Adel")
+@register(incoming=True, from_users=DEVS, pattern=r"^Ferdi")
 async def naya(naya):
-    await naya.reply("**Adel Oshi Dareen**🤩")
+    await naya.reply("**𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕**🤩")
 
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Dareen")
+@register(incoming=True, from_users=DEVS, pattern=r"^Ferdi")
 async def naya(naya):
-    await naya.reply("**Dia Yang Buat Adel Userbot Njeng**😡")
+    await naya.reply("**Dia Yang Buat 𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Njeng**😡")
 
 
 @ayra_cmd(pattern=r"^[aA][lL][iI][vV][eE](?: |$)(.*)")
