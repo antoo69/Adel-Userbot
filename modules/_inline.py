@@ -36,8 +36,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/mikeel-ye/Adel-Userbot"),
-        Button.url("• Support •", url="t.me/Darensupport"),
+        Button.url("• Repo •", url="https://github.com/antoo69/Fs-Userbot"),
+        Button.url("• Support •", url="t.me/BesiteVirtual"),
     ],
 ]
 
@@ -141,7 +141,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© @Darensupport"
+    help_ += "\n© @BestieVirtual"
     data = f"uh_{key}_"
     if index is not None:
         data += f"|{index}"
