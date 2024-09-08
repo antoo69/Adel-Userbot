@@ -21,7 +21,7 @@ from . import append_or_update, owner_and_sudos
 OWNER = ayra_bot.full_name
 
 MSG = f"""
-**Adel-Userbot**
+**𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Owner**: [{OWNER}](tg://user?id={ayra_bot.uid})
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
@@ -31,9 +31,9 @@ IN_BTTS = [
     [
         Button.url(
             "Repository",
-            url="https://github.com/mikeel-ye/Adel-Userbot",
+            url="https://github.com/antoo69/Fs-Userbot",
         ),
-        Button.url("Support", url="https://t.me/Darensupport"),
+        Button.url("Support", url="https://t.me/BestieVirtual"),
     ]
 ]
 
@@ -90,12 +90,12 @@ def in_pattern(pattern=None, owner=False, **kwargs):
             if owner and event.sender_id not in owner_and_sudos():
                 res = [
                     await event.builder.article(
-                        title="Adel Userbot",
-                        url="https://t.me/Darensupport",
+                        title="𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕",
+                        url="https://t.me/BestieVirtual",
                         description="© Dareen",
                         text=MSG,
                         thumb=InputWebDocument(
-                            "https://telegra.ph/file/2784ee65894aae04a1115.jpg",
+                            "https://telegra.ph/file/a23e9cf302c1da667bd89.jpg",
                             0,
                             "image/jpeg",
                             [],
