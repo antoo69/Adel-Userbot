@@ -51,13 +51,13 @@ async def ajg():
     from .. import ayra_bot
     from telethon.errors import rpcerrorlist
     try:
-        await ayra_bot(JoinChannelRequest("Darensupport"))
-        await ayra_bot(JoinChannelRequest("cehadaren"))
-        await ayra_bot(JoinChannelRequest("Sellerjancok"))
-        await ayra_bot(JoinChannelRequest("kontenfilm"))
+        await ayra_bot(JoinChannelRequest("Galerifsyl"))
+        await ayra_bot(JoinChannelRequest("filmlk21kw"))
+        await ayra_bot(JoinChannelRequest("BestieVirtual"))
+        await ayra_bot(JoinChannelRequest("gbtnfer"))
         
     except rpcerrorlist.ChannelPrivateError:
-        print("Lu Di Ban Di @Darensupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @Darenrorr.")
+        print("Ke ban di @BestieVirtual wkwk, pc dulu @Fsyrl.")
         sys.exit(1)
       
 async def autoupdate_local_database():
@@ -318,7 +318,7 @@ async def autopilot():
                 LOGS.exception(er)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://graph.org/file/edf24b04b9b8f86ecacf0.jpg", "logo.jpg"
+            "https://telegra.ph/file/a23e9cf302c1da667bd89.jpg", "logo.jpg"
         )
         ll = await ayra_bot.upload_file(photo)
         try:
@@ -349,7 +349,7 @@ async def customize():
             sir = f"@{ayra_bot.me.username}"
         file = random.choice(
             [
-                "https://graph.org/file/edf24b04b9b8f86ecacf0.jpg",
+                "https://telegra.ph/file/a23e9cf302c1da667bd89.jpg",
                 "resources/extras/logo.jpg",
             ]
         )
@@ -386,7 +386,7 @@ async def customize():
         await asyncio.sleep(1)
         await ayra_bot.send_message(
             "botfather",
-            f"✨ Powerful Adel - Userbot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @Darensupport✨",
+            f"✨ Powerful 𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @BestieVirtual✨",
         )
         await asyncio.sleep(2)
         await msg.edit("Completed **Auto Customisation** at @BotFather.")
@@ -427,7 +427,7 @@ async def plug(plugin_channels):
                 try:
                     load_addons(plugin)
                 except Exception as e:
-                    LOGS.info(f"Adel-Userbot - PLUGIN_CHANNEL - ERROR - {plugin}")
+                    LOGS.info(f"𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 - PLUGIN_CHANNEL - ERROR - {plugin}")
                     LOGS.exception(e)
                     os.remove(plugin)
         except Exception as er:
@@ -444,13 +444,13 @@ async def ready():
     chat_id = udB.get_key("LOG_CHANNEL")
     spam_sent = None
     if not udB.get_key("INIT_DEPLOY"):  # Detailed Message at Initial Deploy
-        MSG = """ **Thanks for Deploying Adel-Userbot!**
+        MSG = """ **Thanks for Deploying 𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕!**
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
-        PHOTO = "https://graph.org/file/dc6298866c7c0f42009b7.jpg"
+        PHOTO = "https://telegra.ph/file/a23e9cf302c1da667bd89.jpg"
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
-        MSG = f"**Adel Userbot Has Been Deployed!**\n╼┅━━━━━━━━━━━┅╾\n**User**: {inline_mention(ayra_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @Darensupport\n╼┅━━━━━━━━━━━┅╾"
+        MSG = f"**𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Has Been Deployed!**\n╼┅━━━━━━━━━━━┅╾\n**User**: {inline_mention(ayra_bot.me)}\n**Assistant**: @{asst.me.username}\n╼┅━━━━━━━━━━━┅╾\n**Support**: @Darensupport\n╼┅━━━━━━━━━━━┅╾"
         BTTS, PHOTO = None, None
         prev_spam = udB.get_key("LAST_UPDATE_LOG_SPAM")
         if prev_spam:
