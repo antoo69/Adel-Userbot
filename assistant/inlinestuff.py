@@ -13,8 +13,8 @@ from . import *
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/mikeel-ye/Adel-Userbot"),
-        Button.url("• Support •", url="t.me/Darensupport"),
+        Button.url("• Repo •", url="https://github.com/antoo69/Fs-Userbot"),
+        Button.url("• Support •", url="t.me/BestieVirtual"),
     ],
 ]
 
