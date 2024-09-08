@@ -161,8 +161,8 @@ def ayra_cmd(
                 LOGS.exception(e)
                 date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
                 naam = get_display_name(chat)
-                ftext = "**Adel Client Error:** `Forward this to` @kynansupport\n\n"
-                ftext += "**Adel Version:** `" + str(pyver)
+                ftext = "**𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Client Error:** `Forward this to` @kynansupport\n\n"
+                ftext += "**𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Version:** `" + str(pyver)
                 ftext += "`\n**Userbot Version:** `" + str(ayra_ver)
                 ftext += "`\n**Telethon Version:** `" + str(telever)
                 ftext += f"`\n**Hosted At:** `{HOSTED_ON}`\n\n"
@@ -191,7 +191,7 @@ def ayra_cmd(
                         error_log = await asst.send_file(
                             udB.get_key("LOG_CHANNEL"),
                             file,
-                            caption="**Adel Client Error:** `Forward this to` @Darensupport\n\n",
+                            caption="**𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕 Client Error:** `Forward this to` @Bestieavirtual\n\n",
                         )
                 else:
                     error_log = await asst.send_message(
