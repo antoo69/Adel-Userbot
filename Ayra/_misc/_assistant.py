@@ -92,7 +92,7 @@ def in_pattern(pattern=None, owner=False, **kwargs):
                     await event.builder.article(
                         title="𝑭𝒆𝒓𝒅𝒊 𝑼𝒔𝒆𝒓𝒃𝒐𝒕",
                         url="https://t.me/BestieVirtual",
-                        description="© Dareen",
+                        description="• Ferdi",
                         text=MSG,
                         thumb=InputWebDocument(
                             "https://telegra.ph/file/a23e9cf302c1da667bd89.jpg",
