@@ -133,7 +133,7 @@ async def _(e):
             r = await e.client(
                 CreateChannelRequest(
                     title=group_name,
-                    about="Join @KynanSupport",
+                    about="Join @Galerifsyrl",
                     megagroup=type_of_group != "c",
                 )
             )
